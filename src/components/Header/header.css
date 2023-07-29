@@ -1,0 +1,11 @@
+.header-container {
+    background-color: aqua;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header-container h1 {
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+}
