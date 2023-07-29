@@ -1,0 +1,43 @@
+.video-container {
+    margin: 2rem;
+    width: 500px;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    width: 500px;
+    height: 400px;
+}
+
+.video-container .video-details-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.video-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.video-container .img-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container .icons {
+    display: flex;
+    column-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container .icon {
+    cursor: pointer;
+}
