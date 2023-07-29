@@ -16,11 +16,7 @@ export function VideoListingCard({ video }) {
   const isVideoInWatchLater = checkVideoInWatchLater(video);
 
   function handleWatchLater() {
-    if (isVideoInWatchLater) {
-      navigate("/watch-later");
-    } else {
-      addVideoToWatchLater(video);
-    }
+    addVideoToWatchLater(video);
   }
 
   return (
@@ -46,7 +42,7 @@ export function VideoListingCard({ video }) {
         </div>
       </div>
       <button onClick={handleWatchLater}>
-        {isVideoInWatchLater ? "Go to watch later" : "Watch Later"}
+        {isVideoInWatchLater ? "Remove from watch later" : "Watch Later"}
       </button>
     </div>
   );
