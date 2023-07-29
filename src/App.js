@@ -6,6 +6,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { VideoListing } from "./pages/VideoListing/VideoListing";
 import { Video } from "./pages/Video/Video";
 import { WatchLater } from "./pages/WatchLater/WatchLater";
+import { Explore } from "./pages/Explore/Explore";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="/:categoryName" element={<VideoListing />}></Route>
           <Route path="/:categoryName/:videoId" element={<Video />}></Route>
           <Route path="/watch-later" element={<WatchLater />}></Route>
-
+          <Route path="/explore" element={<Explore />}></Route>
         </Routes>
       </div>
     </div>
