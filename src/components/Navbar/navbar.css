@@ -1,0 +1,16 @@
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 300px;
+    padding: 2rem;
+    border-right: 1px solid gray;
+    height: 100vh;
+}
+
+.navbar-container .nav-links {
+    text-decoration: none;
+    color: black;
+}
