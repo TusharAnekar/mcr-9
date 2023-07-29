@@ -1,0 +1,33 @@
+.video-listing-card-container {
+    border: 1px solid black;
+    padding: 0.5rem;
+    width: 300px;
+    overflow: hidden;
+}
+
+.video-listing-card-container iframe {
+    height: 200px;
+    margin-bottom: 0.3rem;
+}
+
+.video-listing-card-container .video-details-container {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.video-listing-card-container .video-details-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.video-listing-card-container .video-details-container .video-title {
+    cursor: pointer;
+}
+
+.video-listing-card-container button {
+    width: 100%;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
