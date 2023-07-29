@@ -1,0 +1,17 @@
+.explore-container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.explore-container input {
+    padding: 0.5rem;
+    font-size: large;
+}
+
+.explore-container .videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
